@@ -2,10 +2,8 @@ import re
 
 
 def is_valid(text):
-    a = re.match("[0-9]{1,5}", text)  
-    b = re.match("/W", text)
-    c = re.match("/S", text)
-    return a,b,c
+    a = re.match("\d{5}", text)  
+    return a != None
         
 
 a = is_valid("456345")
