@@ -1,0 +1,1 @@
+a = re.search(('/(\SIS.*B)', li))
